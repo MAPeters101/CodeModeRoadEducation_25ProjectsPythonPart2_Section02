@@ -9,6 +9,9 @@ def orderSummary():
 
 price = 0
 print("Welcome to Pizza Paradise!")
+size_out = "None"
+topping_out = "None"
+drink_out = "None"
 
 print("\nAvailable Pizza Sizes:")
 print("1. Small ($10) \n2. Medium ($15) \n3. Large ($20)")
