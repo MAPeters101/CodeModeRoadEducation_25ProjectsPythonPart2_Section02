@@ -9,8 +9,10 @@
 def isPrime(num):
     if num <= 1:
         return False
+    elif num <= 3:
+        return True
 
-    for val in range(num):
+    for val in range(2, num):
         if num%val == 0:
             return False
 
