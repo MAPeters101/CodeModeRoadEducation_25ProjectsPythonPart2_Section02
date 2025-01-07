@@ -1,6 +1,11 @@
 #this is where you should add your orderSummary function
-
-
+def orderSummary():
+  print("-------------------------------\n")
+  print("Order Summary:")
+  print(f"Pizza Size: {size_out}")
+  print(f"Topping: {topping_out}")
+  print(f"Drink: {drink_out}")
+  print("Total Cost: ${:.2f}".format(price))
 
 price = 0
 print("Welcome to Pizza Paradise!")
