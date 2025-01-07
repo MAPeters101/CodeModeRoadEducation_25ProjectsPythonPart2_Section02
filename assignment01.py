@@ -28,7 +28,9 @@ else:
     size_out = "Large"
 
 #ask the user if they want to see the order summary here
-
+choice = input("Would you like to see your order summary (y or yes)? ").lower()
+if choice == 'y' or choice == 'yes':
+  orderSummary()
 
 print("\nAvailable Pizza Toppings:")
 print("1. Pepperoni ($2) \n2. Mushrooms ($1.50) \n3. Onions ($1) \n4. Extra Cheese ($1.75)")
@@ -51,7 +53,8 @@ else:
     topping_out = "Extra Cheese"
 
 #ask the user if they want to see the order summary here
-
+if choice == 'y' or choice == 'yes':
+  orderSummary()
 
 print("\nAvailable Drinks:")
 print("1. Soda ($2) \n2. Water ($1)")
@@ -68,12 +71,6 @@ else:
     drink_out = "Water"
 
 #ask the user if they want to see the order summary here
+if choice == 'y' or choice == 'yes':
+  orderSummary()
 
-
-#this is the code that you want to copy
-print("-------------------------------\n")
-print("Order Summary:")
-print(f"Pizza Size: {size_out}")
-print(f"Topping: {topping_out}")
-print(f"Drink: {drink_out}")
-print("Total Cost: ${:.2f}".format(price))
