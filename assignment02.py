@@ -18,9 +18,11 @@ def isPrime(num):
 
 
 #outside of the function, prompt the user to enter a number
-
+number = int(input("Please enter a number to check to see if it is a prime number: "))
 
 #call the function in the condition of an if statement. If the function returns True, then the if statement should run. The if statements states that the number is prime
-
-
+if isPrime(number):
+    print(f"{number} is a prime number.")
 #else, print that the number is not prime
+else:
+    print(f"{number} is not a prime number.")
