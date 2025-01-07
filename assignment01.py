@@ -30,7 +30,6 @@ else:
     price += 20
     size_out = "Large"
 
-#ask the user if they want to see the order summary here
 choice = input("Would you like to see your order summary (y or yes)? ").lower()
 if choice == 'y' or choice == 'yes':
   orderSummary()
@@ -55,7 +54,6 @@ else:
     price += 1.75
     topping_out = "Extra Cheese"
 
-#ask the user if they want to see the order summary here
 choice = input("Would you like to see your order summary (y or yes)? ").lower()
 if choice == 'y' or choice == 'yes':
   orderSummary()
@@ -74,7 +72,6 @@ else:
     price += 1
     drink_out = "Water"
 
-#ask the user if they want to see the order summary here
 choice = input("Would you like to see your order summary (y or yes)? ").lower()
 if choice == 'y' or choice == 'yes':
   orderSummary()
