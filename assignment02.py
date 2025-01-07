@@ -5,10 +5,16 @@
 # Any number less than or equal to 1 is not prime.
 # A prime number is only diviside by itself and 1
 
-
-
 #create your isPrime function. Make sure to include an appropriate function header. Remember, your function should return either True or False (no double quotes around it, just type True or False as is)
+def isPrime(num):
+    if num <= 1:
+        return False
 
+    for val in range(num):
+        if num%val == 0:
+            return False
+
+    return True
 
 
 #outside of the function, prompt the user to enter a number
