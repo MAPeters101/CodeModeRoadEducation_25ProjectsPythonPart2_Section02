@@ -75,4 +75,3 @@ else:
 choice = input("Would you like to see your order summary (y or yes)? ").lower()
 if choice == 'y' or choice == 'yes':
   orderSummary()
-
