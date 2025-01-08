@@ -30,6 +30,7 @@ while True:
         start = int(input("Please enter the start value: "))
         stop = int(input("Please enter the stop value: "))
         # Calculate (call the sum function) and print that value
+        print(f"The sum of the values between {start} and {stop} is {calculate_sum(start, stop)}.")
 
         # Calculate (call the product function) and print the product
 
